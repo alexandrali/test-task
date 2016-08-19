@@ -1,0 +1,133 @@
+@media (min-width: 1024px) {
+	header{
+		height: 117px;
+		padding-bottom: 0;
+	}
+	.content{
+	width: 80%;
+	margin: 0 auto;
+	min-width: 1024px;
+	}	
+
+	header p, .nav{
+		display: block;
+	}
+
+	.bag a, .flex a:last-child{
+		display: inline-block;
+	} 
+	.bag:hover{
+		background-color: #437ad9; 
+	}
+	.flex a:first-child{
+		display: none;
+	}
+
+	h3{
+		display: none;
+	}
+
+	.settings h3 ~ *{
+		display: inline-block;
+	}
+
+	.item{
+		width: 25%;
+	}
+
+	.sale{
+		width: 50%;
+	}
+
+	.sale img, .sale .description{
+		max-width: 50% !important;
+		height: auto;
+	}
+	
+	 .settings input:first-child{
+	 	display: none;
+	 }
+}
+@media (min-width: 768px )  and (max-width: 1023px)  {
+	.content{
+		min-width: 421px;
+		height: auto;
+	}
+	.item{
+		width: 33.33%;
+	}
+	.sale{
+	width: 66.67% !important;
+	}
+
+	.sale img, .sale .description{
+	max-width: 50% !important;
+	height: auto;
+	}
+
+	.item img{
+		max-width: 50%;
+		height: auto;
+		margin-bottom: 20px;
+	}	
+	.flex input{
+		margin-right: 50px;
+	}
+	
+
+}
+
+@media (min-width: 421px )  and (max-width: 767px)  {
+	.content{
+		min-width: 421px;
+	}
+	.item{
+		width: 50%;
+	}
+	.sale{
+	width: 100% !important;
+	}
+
+	.sale img, .sale .description{
+	max-width: 50%;
+	height: auto;
+	}
+
+	.item img{
+		max-width: 50%;
+		height: auto;
+		margin-bottom: 20px;
+	}	
+
+}
+
+@media (max-width: 420px){
+	.content{
+		min-width: 420px;
+	}
+	.item, .sale{
+		width: 100%;
+	}
+
+	.sale .description{
+		width: 100%;
+		clear: both;
+	}
+	.item img{
+	max-width: 50%;
+	height: auto;
+	margin-bottom: 20px;
+	}
+
+	.sale img{
+		clear: both;
+		max-width: 50%;
+		margin-bottom: 20px;
+	}
+
+	.sale .price{
+		width: 85%;
+		right: 40px;
+	}
+
+}
